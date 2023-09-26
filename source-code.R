@@ -32,10 +32,18 @@ loop_test <- matrix(1:6,3,6)
 loop_test
 colnames(loop_test) <- c("p1","p2","p3","p4","p5","p6")
 loop_test
+x1 <- 11
+if(x1 >10){
+  print("meow")
+  
 
-for (i in c(1:6)) {
-  
- mean(loop_test[,i]) 
-  
 }
 
+mx[1,1] <- 1
+for (i in c(1:12)){
+mx <-  matrix( , 3 , 6)
+
+for (j in c(1:3)){
+  mx[j,i] <- j 
+}
+}
